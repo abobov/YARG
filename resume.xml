@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resume SYSTEM "resume.dtd">
+<resume>
+    <version>
+        <revision>$Id: svn.vim 683 2008-07-30 11:52:38Z hdima $</revision>
+        <text>1.6</text>
+    </version>
+	<header>
+		<name>
+			<firstname>C'thulhu</firstname>
+			<!--<surname></surname>-->
+		</name>
+		<cell>555-666-7777</cell>
+		<email>greatoldone@lovecraft.com</email>
+		<objective>
+			<para>I am an outgoing and energetic (ask anybody) young professional, seeking a career that fits my professional skills, personality, and murderous tendencies.  My squid-like head is a masterful problem solver and inspires fear in who gaze upon it.  I can bring world domination to your organization.</para>
+		</objective>
+		<!--<address>        -->
+		<!--    <city></city>-->
+		<!--</address>       -->
+	</header>
+	<history>
+		<job>
+			<employer>Doomsday Cult</employer>
+			<jobtitle>Leader/Overlord - Baton Rogue, LA</jobtitle>
+			<period>
+				<from><date><year>1926</year></date></from>
+				<to><date><year>2009</year></date></to>
+			</period>
+			<description>
+				<ul>
+					<item>Inspired and won highest peasant death competition among servants</item>
+					<item>Helped coordinate managers to grow cult following</item>
+					<item>Provided untimely deaths to all who opposed</item>
+				</ul>
+			</description>
+		</job>
+		<job>
+			<employer>The Watering Hole</employer>
+			<jobtitle>Bartender/Server - Milwaukee, WI</jobtitle>
+			<period>
+				<from><date><month>May</month><year>2010</year></date></from>
+				<to><present/></to>
+			</period>
+			<description>
+				<ul>
+					<item>Worked on grass-roots promotional campaigns</item>
+					<item>Reduced theft and property damage percentages</item>
+					<item>Janitorial work, Laundry</item>
+				</ul>
+			</description>
+		</job>
+	</history>
+	<skills>
+		<skill>
+			<title>Office skills</title>
+			<description>
+				<para>Office and records management, database administration, event organization, customer support, travel coordination</para>
+			</description>
+		</skill>
+		<skill>
+			<title>Computer skills</title>
+			<description>
+				<para>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</para>
+			</description>
+		</skill>
+	</skills>
+	<academics>
+		<degrees>
+			<degree>
+				<institution>Withering Madness University - Planet Vhoorl</institution>
+				<period></period>
+				<description>
+					<para><strong>Major:</strong> Public Relations</para>
+					<para><strong>Minor:</strong> Scale Tending</para>
+				</description>
+			</degree>
+		</degrees>
+	</academics>
+	<stuffs>
+		<stuff>
+			<title>Hobbies</title>
+			<description>
+				<para>World Domination, Deep Sea Diving, Murder Most Foul</para>
+			</description>
+		</stuff>
+		<stuff>
+			<title>References</title>
+			<description>
+				<para>Available on request</para>
+			</description>
+		</stuff>
+	</stuffs>
+</resume>

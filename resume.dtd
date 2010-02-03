@@ -1,0 +1,61 @@
+<!ENTITY % fontstyle "strong | em">
+<!ENTITY % text "#PCDATA|%fontstyle;">
+<!ENTITY % description "para | ul | ol">
+
+<!-- {{{ Commond -->
+
+<!ELEMENT period (from?, to?)>
+	<!ELEMENT from (date | present)>
+	<!ELEMENT to (date | present)>
+		<!ELEMENT present EMPTY>
+		<!ELEMENT date (date?, month?, year)>
+			<!ELEMENT year (#PCDATA)>
+			<!ELEMENT month (#PCDATA)>
+			<!ELEMENT day (#PCDATA)>
+
+<!ELEMENT ul (item+)>
+<!ELEMENT ol (item+)>
+<!ELEMENT item (%text;)*>
+<!ELEMENT strong (%text;)*>
+<!ELEMENT em (%text;)*>
+<!ELEMENT para (%text;)*>
+
+<!ELEMENT description (%description;)+>
+
+<!ELEMENT title (#PCDATA)>
+
+<!-- Commond }}} -->
+
+<!ELEMENT resume (version?, header, history?, skills?, academics?, stuffs?)>
+
+<!ELEMENT version (revision?, text?)>
+    <!ELEMENT revision (#PCDATA)>
+    <!ELEMENT text (#PCDATA)>
+
+<!ELEMENT header (name, (cell+)?, (email+)?, objective?, address?)>
+	<!ELEMENT cell (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT objective (%description;)>
+	<!ELEMENT address (city?)>
+		<!ELEMENT city (#PCDATA)>
+
+	<!ELEMENT name (firstname?, surname?, nickname?)>
+		<!ELEMENT firstname (#PCDATA)>
+		<!ELEMENT nickname (#PCDATA)>
+		<!ELEMENT surname (#PCDATA)>
+
+<!ELEMENT history (job+)>
+	<!ELEMENT job (employer, jobtitle, period?, description)>
+		<!ELEMENT jobtitle (#PCDATA)>
+		<!ELEMENT employer (#PCDATA)>
+
+<!ELEMENT skills (skill+)>
+	<!ELEMENT skill (title, description)>
+
+<!ELEMENT academics (degrees)>
+	<!ELEMENT degrees (degree+)>
+		<!ELEMENT degree (institution, period, description)>
+			<!ELEMENT institution (#PCDATA)>
+
+<!ELEMENT stuffs (stuff+)>
+	<!ELEMENT stuff (title, description)>
